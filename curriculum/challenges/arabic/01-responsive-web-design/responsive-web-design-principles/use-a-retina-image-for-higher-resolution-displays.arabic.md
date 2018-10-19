@@ -3,16 +3,16 @@ id: 587d78b1367417b2b2512b0a
 title: Use a Retina Image for Higher Resolution Displays
 challengeType: 0
 videoUrl: ''
-localeTitle: استخدم صورة شبكية العين لعرض أعلى دقة
+localeTitle: استخدم صورة Retina لعرض أعلى دقة بالشاشة
 ---
 
-## Description
+## الشرح
 <section id="description"> إن أبسط طريقة لجعل صورك تظهر &quot;شبكية العين&quot; (وتحسينها لشاشات عرض الشبكية) هي تحديد قيم <code>width</code> <code>height</code> بها كنصف ما هو الملف الأصلي فقط. في ما يلي مثال على صورة تستخدم فقط نصف الطول والعرض الأصليين: <blockquote style=";text-align:right;direction:rtl"> &lt;نمط&gt; <br> img {height: 250px؛ العرض: 250 بكسل ؛ } <br> &lt;/ النمط&gt; <br> &lt;img src = &quot;coolPic500x500&quot; alt = &quot;صورة ممتازة للغاية&quot;&gt; </blockquote></section>
 
-## Instructions
+## الخطوات
 <section id="instructions"> اضبط <code>width</code> <code>height</code> علامة <code>img</code> على نصف قيمها الأصلية. في هذه الحالة ، <code>height</code> كل من <code>height</code> الأصلي <code>width</code> الأصلي 200 بكسل. </section>
 
-## Tests
+## التجربة
 <section id='tests'>
 
 ```yml
@@ -26,7 +26,7 @@ tests:
 
 </section>
 
-## Challenge Seed
+## التحدي
 <section id='challengeSeed'>
 
 <div id='html-seed'>
@@ -46,7 +46,7 @@ tests:
 
 </section>
 
-## Solution
+## الحلول
 <section id='solution'>
 
 ```js
