@@ -3,16 +3,16 @@ id: 587d78b1367417b2b2512b09
 title: Make an Image Responsive
 challengeType: 0
 videoUrl: ''
-localeTitle: جعل صورة مستجيبة
+localeTitle: جعل الصورة متجاوبة
 ---
 
-## Description
+## الشرح
 <section id="description"> جعل الصور متجاوبة مع CSS بسيط للغاية. بدلاً من تطبيق عرض مطلق لعنصر: <code>img { width: 720px; }</code> يمكنك استخدام: <blockquote style=";text-align:right;direction:rtl"> img { <br> أقصى عرض: 100 ٪. <br> العرض محجوب؛ <br> الارتفاع: auto؛ <br> } </blockquote> تحدد الخاصية <code>max-width</code> ٪ 100 الصورة لتناسب عرض الحاوية الخاصة بها ، ولكن الصورة لن تمتد على نطاق أوسع من عرضها الأصلي. يؤدي تعيين خاصية <code>display</code> لحظر التغييرات على الصورة من عنصر مضمّن (الافتراضي الخاص بها) إلى عنصر كتلة على السطر الخاص بها. تحافظ خاصية <code>height</code> تلقائي على نسبة العرض إلى الارتفاع الأصلية للصورة. </section>
 
-## Instructions
+## الخطوات
 <section id="instructions"> أضف قواعد النمط لعلامة <code>img</code> لجعلها تستجيب لحجم الحاوية الخاصة بها. يجب أن يتم عرضه كعنصر على مستوى الكتلة ، يجب أن يلائم العرض الكامل للحاوية دون تمديد ، ويجب أن يحتفظ بنسبة العرض إلى الارتفاع الأصلية. </section>
 
-## Tests
+## التجربة
 <section id='tests'>
 
 ```yml
@@ -28,7 +28,7 @@ tests:
 
 </section>
 
-## Challenge Seed
+## التحدي
 <section id='challengeSeed'>
 
 <div id='html-seed'>
@@ -48,7 +48,7 @@ tests:
 
 </section>
 
-## Solution
+## الحل
 <section id='solution'>
 
 ```js
