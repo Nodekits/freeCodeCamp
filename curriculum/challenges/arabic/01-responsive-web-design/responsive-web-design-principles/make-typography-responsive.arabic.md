@@ -3,16 +3,16 @@ id: 587d78b1367417b2b2512b0c
 title: Make Typography Responsive
 challengeType: 0
 videoUrl: ''
-localeTitle: جعل الطباعة مستجيبة
+localeTitle: جعل طباعة الحروف متجاوباً
 ---
 
-## Description
+## الشرح
 <section id="description"> بدلاً من استخدام النص <code>em</code> أو <code>px</code> to size ، يمكنك استخدام وحدات viewport للطباعة المتجاوبة. وحدات Viewport ، مثل النسب المئوية ، وحدات نسبية ، ولكنها تستند إلى عناصر مختلفة. وترتبط وحدات Viewport بأبعاد إطار العرض (العرض أو الارتفاع) للجهاز ، والنسب المئوية مرتبطة بحجم عنصر الحاوية الأصل. وحدات العرض المختلفة الأربعة هي: <ul style=";text-align:right;direction:rtl"><li style=";text-align:right;direction:rtl"> <code>vw: 10vw</code> سيكون 10٪ من عرض إطار العرض. </li><li style=";text-align:right;direction:rtl"> <code>vh: 3vh</code> سيكون 3٪ من ارتفاع إطار العرض. </li><li style=";text-align:right;direction:rtl"> <code>vmin: 70vmin</code> سيكون <code>vmin: 70vmin</code> 70٪ من بُعد أصغر في إطار العرض (الطول مقابل العرض). </li><li style=";text-align:right;direction:rtl"> <code>vmax: 100vmax</code> سيكون <code>vmax: 100vmax</code> 100٪ من البعد الأكبر لإطار العرض (الارتفاع مقابل العرض). </li></ul></section>
 
-## Instructions
+## الخطوات
 <section id="instructions"> عيّن <code>width</code> علامة <code>h2</code> إلى 80٪ من عرض إطار العرض <code>width</code> الفقرة كـ 75٪ من البُعد الأصغر في إطار العرض. </section>
 
-## Tests
+## التجربة
 <section id='tests'>
 
 ```yml
@@ -26,7 +26,7 @@ tests:
 
 </section>
 
-## Challenge Seed
+## التحدي
 <section id='challengeSeed'>
 
 <div id='html-seed'>
@@ -47,7 +47,7 @@ tests:
 
 </section>
 
-## Solution
+## الحلول
 <section id='solution'>
 
 ```js
