@@ -3,16 +3,16 @@ id: 587d7b7c367417b2b2512b1b
 title: Use the delete Keyword to Remove Object Properties
 challengeType: 1
 videoUrl: ''
-localeTitle: استخدم Delete keyword to Remove Object Properties
+localeTitle: استخدام المفتاح delete لازالة خصائص الكائن
 ---
 
-## Description
+## الشرح
 <section id="description"> الآن أنت تعرف ما هي الأشياء وخصائصها ومزاياها الأساسية. باختصار، فهي مخازن المفاتيح ذات قيمة والتي توفر طريقة بديهية مرنة لتنظيم البيانات، <strong><em>و،</em></strong> لأنها توفر الوقت بحث سريع جدا. خلال بقية هذه التحديات ، سنقوم بوصف العديد من العمليات الشائعة التي يمكنك القيام بها على الكائنات بحيث يمكنك أن تصبح مريحًا في تطبيق هذه الهياكل المفيدة للبيانات في برامجك. في التحديات السابقة ، قمنا بإضافة وتعديل أزواج قيمة المفتاح للكائن. سنرى هنا كيف يمكننا <em>إزالة</em> زوج قيمة مفتاح من كائن. دعونا نعيد النظر في مثال كائن <code>foods</code> لدينا للمرة الأخيرة. إذا أردنا إزالة مفتاح <code>apples</code> ، فيمكننا إزالته باستخدام الكلمة الرئيسية التي <code>delete</code> مثل هذا: <blockquote style=";text-align:right;direction:rtl"> حذف foods.apples ؛ </blockquote></section>
 
-## Instructions
+## الخطوات
 <section id="instructions"> استخدم الكلمة الرئيسية حذف لإزالة <code>oranges</code> <code>plums</code> ومفاتيح <code>strawberries</code> من كائن <code>foods</code> . </section>
 
-## Tests
+## التجربة
 <section id='tests'>
 
 ```yml
@@ -26,7 +26,7 @@ tests:
 
 </section>
 
-## Challenge Seed
+## التحدي
 <section id='challengeSeed'>
 
 <div id='js-seed'>
@@ -55,7 +55,7 @@ console.log(foods);
 
 </section>
 
-## Solution
+## الحلول
 <section id='solution'>
 
 ```js
